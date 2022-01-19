@@ -1,17 +1,18 @@
 @font-face {
-  font-family: 'payonline-icon';
-  src:  url('fonts/payonline-icon.eot?xqq391');
-  src:  url('fonts/payonline-icon.eot?xqq391#iefix') format('embedded-opentype'),
-    url('fonts/payonline-icon.ttf?xqq391') format('truetype'),
-    url('fonts/payonline-icon.woff?xqq391') format('woff'),
-    url('fonts/payonline-icon.svg?xqq391#payonline-icon') format('svg');
+  font-family: "payonline-icon";
+  src: url("fonts/payonline-icon.eot?xqq391");
+  src: url("fonts/payonline-icon.eot?xqq391#iefix") format("embedded-opentype"),
+    url("fonts/payonline-icon.ttf?xqq391") format("truetype"),
+    url("fonts/payonline-icon.woff?xqq391") format("woff"),
+    url("fonts/payonline-icon.svg?xqq391#payonline-icon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="payonline-icon-"], [class*=" payonline-icon-"] {
+[class^="payonline-icon-"],
+[class*=" payonline-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'payonline-icon' !important;
+  font-family: "payonline-icon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -111,6 +112,9 @@
 .payonline-icon-handshake:before {
   content: "\e905";
 }
+.payonline-icon-manage:before {
+  content: "\e899";
+}
 .payonline-icon-send-1:before {
   content: "\e906";
 }
@@ -125,4 +129,7 @@
 }
 .payonline-icon-users:before {
   content: "\e90a";
+}
+.bg-header {
+  background-image: url("../../images/H5.jpg");
 }
