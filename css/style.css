@@ -721,13 +721,24 @@ a[href^="https://maps.google.com/maps"]
   left: 15px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+  padding-right: unset !important;
 }
 
 .header-navigation .container .navbar-brand {
   height: auto;
   margin: 0;
+  /* height: 140px !important; */
+  width: 80%;
 }
-
+.header-navigation .container .navbar-brand img {
+  height: 60px !important;
+  width: auto !important;
+}
+@media (max-width: 992px) {
+  .social-bloc {
+    margin-top: 30px;
+  }
+}
 .header-navigation .container .menu-toggler {
   display: none;
 }
