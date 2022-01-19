@@ -6293,7 +6293,24 @@ a[href^="https://maps.google.com/maps"]
 .time-tab-style-one .tab-title li a.active h3 {
   color: #fff;
 }
-
+.folder-list {
+  font-size: 20px;
+}
+.folder-list li {
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.folder-list li:last-child {
+  margin-bottom: unset;
+}
+.folder-list ul li {
+  margin-top: 20px;
+  line-height: unset;
+}
+.folder-list ul li:not(:first-child) {
+  margin-top: 5px !important;
+  line-height: unset;
+}
 .time-tab-style-one .single-tab-content .img-box {
   overflow: hidden;
   border-radius: 7px;
@@ -8061,3 +8078,48 @@ a[href^="https://maps.google.com/maps"]
   margin-top: 35px;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* //////////////////////////// nav tab page about Us */
+
+.about-tab.nav-tabs {
+  border-bottom: 1px solid #bfb8b8;
+  /* border-bottom: #e9e5e5; */
+}
+
+.about-tab.nav-tabs .nav-item.show,
+.nav-tabs {
+}
+.about-tab.nav-tabs .nav-item.show .nav-link,
+.about-tab.nav-tabs .nav-link {
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.presentation-img {
+  height: 180px;
+  float: right;
+  padding: 20px 50px;
+}
+.text-container {
+  font-size: 18px;
+}
+.about-tab.nav-tabs .nav-item.show .nav-link:hover,
+.about-tab.nav-tabs .nav-link:hover {
+  border-color: transparent;
+}
+.about-tab.nav-tabs .nav-item.show .nav-link,
+.about-tab.nav-tabs .nav-link.active {
+  color: #a51624;
+  background: #e9e5e5;
+  border-color: #bfb8b8 #bfb8b8 #fff;
+}
+.about-tab.nav-tabs .nav-item.show .nav-link span i,
+.about-tab.nav-tabs .nav-link span i {
+  font-size: 45px;
+  margin-right: 20px;
+}
+.about-tab.tab-content > .active {
+  background: #e9e5e5;
+  padding: 80px 0;
+  padding-left: 18px;
+}
